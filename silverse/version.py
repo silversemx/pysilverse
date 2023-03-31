@@ -2,10 +2,10 @@ from cerver.utils.log import LOG_TYPE_NONE, cerver_log_both
 
 from .lib import lib
 
-SILVERSE_VERSION = "0.1.1"
-SILVERSE_VERSION_NAME = "Version 0.1.1"
+SILVERSE_VERSION = "0.1.2"
+SILVERSE_VERSION_NAME = "Version 0.1.2"
 SILVERSE_VERSION_DATE = "31/03/2023"
-SILVERSE_VERSION_TIME = "10:54 CST"
+SILVERSE_VERSION_TIME = "11:02 CST"
 SILVERSE_VERSION_AUTHOR = "Erick Salas"
 
 version = {
