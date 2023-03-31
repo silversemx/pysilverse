@@ -78,10 +78,6 @@ silverse_auth_create.restype = c_void_p
 silverse_auth_print_token = lib.silverse_auth_print_token
 silverse_auth_print_token.argtypes = [c_void_p]
 
-silverse_single_authentication = lib.silverse_single_authentication
-silverse_single_authentication.argtypes = [c_void_p, c_void_p, c_char_p]
-silverse_single_authentication.restype = c_uint
-
 silverse_custom_authentication_handler = lib.silverse_custom_authentication_handler
 silverse_custom_authentication_handler.argtypes = [c_void_p, c_void_p]
 silverse_custom_authentication_handler.restype = c_uint
